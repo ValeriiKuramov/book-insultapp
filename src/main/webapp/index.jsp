@@ -8,9 +8,10 @@
 <title>Insult Generator</title>
 </head>
 <body>
+    <p>
 <%
 out.println(new InsultGenerator().generateInsult());
 %>
-
+    </p>
 </body>
 </html>
